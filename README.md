@@ -2,6 +2,8 @@
 
 _This document describes a general approach to Kafka monitoring._
 
+## Introduction
+
 Kafka can be monitored from at least a few places:
 
 - broker
@@ -12,7 +14,7 @@ Kafka can be monitored from at least a few places:
 	- real clients
 - infrastructure that sits in between, e.g. load balancers
 
-## SLIs, SLOs or SLTs and SLAs
+### SLIs, SLOs or SLTs and SLAs
 
 - SLI (service-level indicator) – a metric that describes one aspect of service reliability. It should be closely
   aligned with user's experience. Good SLI is usually somethig external to the broker to reflect customer experience
@@ -21,7 +23,7 @@ Kafka can be monitored from at least a few places:
 - SLA (service-level agreement) is a legal agreement between a service provider and a client. It usually includes
   several of SLOs.
 
-### Client SLIs
+#### Client SLIs
 
 - latency – how long it takes for a message to be produced or consumed
 - throughput – how many messages can be produced or consumed per second
