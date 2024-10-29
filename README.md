@@ -1,4 +1,6 @@
-# kafka-monitoring
+# Kafka Monitoring
+
+_This document describes a general approach to Kafka monitoring._
 
 Kafka can be monitored from at least a few places:
 
